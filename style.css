@@ -90,13 +90,14 @@ hr {
 }
 .listing ul li a {
     text-decoration: none; 
-    color: blueviolet;
+    color: black;
     font-size: 1em;
     text-transform: capitalize;
     line-height: 30px;
 }
 .listing ul li a:hover {
     color: #ff6666;
+    cursor: pointer;
 }
 .listing ul {
     text-align: center;
@@ -120,5 +121,13 @@ hr {
     }
     .containers {
         gap: 30px;
+    }
+    .containers h2 {
+        font-size: 1em;
+        color: #626262;
+        font-weight: lighter;
+    }
+    .others h1 {
+        font-size: 1.1em;
     }
 }
