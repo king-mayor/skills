@@ -80,6 +80,10 @@ hr {
 .listing {
     margin-top: 50px;
 }
+.listing  span {
+    color: black;
+    margin-left: 5px;
+}
 .listing h3 {
     display: flex;
     justify-content: center;
