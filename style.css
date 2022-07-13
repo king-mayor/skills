@@ -135,3 +135,36 @@ hr {
         font-size: 1.1em;
     }
 }
+@media all and (max-width: 900px){
+    .containers {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .containers h2 {
+        font-size: 1em;
+        color: #626262;
+        font-weight: lighter;
+    }
+}
+@media all and (max-width: 1200px) {
+    .containers {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .containers h2 {
+        font-size: 1em;
+        color: #626262;
+        font-weight: lighter;
+    }
+}
+@media all and (max-width: 1400px) {
+    .containers {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .containers h2 {
+        font-size: 1em;
+        color: #626262;
+        font-weight: lighter;
+    }
+}
